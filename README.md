@@ -1,38 +1,5 @@
-# Curvetopia2
-
-# Shape Regularization Code
-
-## Functions
-
-- **`read_csv(csv_path)`**: Reads shape data from a CSV file.
-- **`plot(paths_XYs, colours)`**: Plots multiple shapes.
-- **`plot_shape(paths_XYs, colours)`**: Plots individual shapes.
-- **`regularize_line(points)`**: Regularizes points into a line.
-- **`regularize_ellipse(points)`**: Regularizes points into an ellipse.
-- **`regularize_circle(points, max_width, max_height, scale_factor=0.9)`**: Regularizes points into a circle.
-- **`regularize_rectangle(points, max_width, max_height, scale_factor=0.9)`**: Regularizes points into a rectangle.
-- **`regularize_rounded_rectangle(points)`**: Regularizes points into a rounded rectangle.
-- **`regularize_star(points)`**: Regularizes points into a star.
-- **`regularize_arc(points)`**: Regularizes points into an arc.
-- **`regularize_triangle(points)`**: Regularizes points into a triangle.
-- **`regularize_polygon(points)`**: Regularizes points into a polygon.
-- **`regularize_irregular(points, epsilon=0.1)`**: Simplifies irregular shapes.
-- **`fit_circle(points)`**: Fits a circle to points.
-- **`calculate_perimeter(hull)`**: Calculates perimeter of a convex hull.
-- **`identify_shape(points)`**: Identifies the shape type.
-- **`calculate_max_extents(points)`**: Calculates the bounding box dimensions.
-- **`calculate_aspect_ratio(points)`**: Calculates aspect ratio of a shape.
-- **`regularize_shape(points)`**: Regularizes shape based on type.
-
-## Usage
-
-1. Load shapes with `read_csv()`.
-2. Visualize with `plot()`.
-3. Regularize shapes using `regularize_shape()`.
-4. Plot regularized shapes with `plot()`.
-
-
 # SVG to CSV Converter
+
 
 ## Overview
 
@@ -70,10 +37,46 @@ This script extracts coordinates from an SVG file and saves them to a CSV file.
 
 Coordinates are saved to `csv_file_path` in CSV format with columns `x` and `y`.
 
+# Curvetopia2
+
+# Shape Regularization Code 
+https://colab.research.google.com/drive/1-UhLD_altVKm40WxTGB1qzYx_d9Zdnrj#scrollTo=bRTqeV0GFIac (collab link)
+
+## Functions
+
+- **`read_csv(csv_path)`**: Reads shape data from a CSV file.
+- **`plot(paths_XYs, colours)`**: Plots multiple shapes.
+- **`plot_shape(paths_XYs, colours)`**: Plots individual shapes.
+- **`regularize_line(points)`**: Regularizes points into a line.
+- **`regularize_ellipse(points)`**: Regularizes points into an ellipse.
+- **`regularize_circle(points, max_width, max_height, scale_factor=0.9)`**: Regularizes points into a circle.
+- **`regularize_rectangle(points, max_width, max_height, scale_factor=0.9)`**: Regularizes points into a rectangle.
+- **`regularize_rounded_rectangle(points)`**: Regularizes points into a rounded rectangle.
+- **`regularize_star(points)`**: Regularizes points into a star.
+- **`regularize_arc(points)`**: Regularizes points into an arc.
+- **`regularize_triangle(points)`**: Regularizes points into a triangle.
+- **`regularize_polygon(points)`**: Regularizes points into a polygon.
+- **`regularize_irregular(points, epsilon=0.1)`**: Simplifies irregular shapes.
+- **`fit_circle(points)`**: Fits a circle to points.
+- **`calculate_perimeter(hull)`**: Calculates perimeter of a convex hull.
+- **`identify_shape(points)`**: Identifies the shape type.
+- **`calculate_max_extents(points)`**: Calculates the bounding box dimensions.
+- **`calculate_aspect_ratio(points)`**: Calculates aspect ratio of a shape.
+- **`regularize_shape(points)`**: Regularizes shape based on type.
+
+## Usage
+
+1. Load shapes with `read_csv()`.
+2. Visualize with `plot()`.
+3. Regularize shapes using `regularize_shape()`.
+4. Plot regularized shapes with `plot()`.
+
 
 
 
 # Symmetry Analysis and Reflection in Python
+https://colab.research.google.com/drive/1avp6mQBkVb_2uRguAOVLdydyOR2rVSQ8#scrollTo=naIFbm36E95q (Collab link)
+
 
 ## Overview
 
@@ -128,6 +131,8 @@ The script processes a given CSV file, performs symmetry analysis, and visualize
 
 
 # Occlusion Analysis and Visualization
+https://colab.research.google.com/drive/1Nh3WMH9t6w-4JDIAnsAJ1wLxWCly-cmz
+
 
 ## Overview
 
@@ -187,6 +192,7 @@ Modify `input_csv` and `colours` variables as needed to test different datasets 
 
 
 # Fragments Analysis and Visualization
+https://colab.research.google.com/drive/1g-cSz3BDMs1gi9xEk1eD7-uJMpXroasl
 
 ## Overview
 
@@ -238,3 +244,7 @@ This notebook performs analysis and visualization of geometric shapes from point
   - Number of inner points.
   - Number of inner points within the fitted circle.
   - Average center and radius of the connecting circle.
+
+
+# Video Demo Link
+https://drive.google.com/drive/folders/1ayGKNKzwrGbwFgeNlyLk5egusN7Jt8Rj?usp=drive_link
